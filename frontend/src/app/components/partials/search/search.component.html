@@ -1,0 +1,11 @@
+<div>
+  <!-- Input with the template reference of "#s". These template references direct access to them everywhre inside HTML file.   -->
+  <input
+    #s
+    type="text"
+    placeholder="Search Food Mine!"
+    (keyup.enter)="search(s.value)"
+    [value]="searchTerm"
+  />
+  <button (click)="search(s.value)">Search</button>
+</div>
