@@ -14,12 +14,17 @@
      - Add sample foods
 
 3. Add images to assets
+
 4. Create Food service
+
 5. Create Home component
+
    - Add TS
    - Add HTML
    - Add CSS
+
 6. Search
+
    - Add method to Food service
    - Add search route
    - Show search result in Home component
@@ -28,7 +33,9 @@
      - Add TS
      - Add HTML
      - Add CSS
+
 7. Tags Bar
+
    - Create Tag model
    - Add sample tags to data.ts
    - Food service
@@ -38,6 +45,14 @@
    - Show tag result in Home Component
    - Generate Tags component
      - Add to Home Component
+     - Add TS
+     - Add HTML
+     - Add CSS
+
+8. Food Page
+   - Add method to food service
+   - Generate Food Page component
+     - Add route
      - Add TS
      - Add HTML
      - Add CSS
