@@ -28,11 +28,7 @@
    - Add method to Food service
    - Add search route
    - Show search result in Home component
-   - Generate search comonent
-     - Add to home component
-     - Add TS
-     - Add HTML
-     - Add CSS
+   - Generate search comonent (add to Home Component, TS, HTML, CSS)
 
 7. Tags Bar
 
@@ -43,16 +39,17 @@
      - Add get all foods by tag method
    - Add tags route
    - Show tag result in Home Component
-   - Generate Tags component
-     - Add to Home Component
-     - Add TS
-     - Add HTML
-     - Add CSS
+   - Generate Tags component (add to Home Component, TS, HTML, CSS)
 
 8. Food Page
+
    - Add method to food service
-   - Generate Food Page component
-     - Add route
-     - Add TS
-     - Add HTML
-     - Add CSS
+   - Generate Food Page component (Route, TS, HTML, CSS)
+
+9. Cart Page
+
+   - Create CartItem Model
+   - Create Cart Model
+   - Generate Cart service
+   - Add to Cart Button in Food Page
+   - Generate Cart page component (Route, TS, HTML, CSS)
