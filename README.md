@@ -53,3 +53,28 @@
    - Generate Cart service
    - Add to Cart Button in Food Page
    - Generate Cart page component (Route, TS, HTML, CSS)
+
+10. Not Found
+
+    - Generate Component (TS, HTML, CSS)
+    - Add to Pages
+      - Home Page
+      - Food Page
+      - Cart page
+
+11. Connect to Backend
+
+- Create backend folder
+- npm init
+- npm install typescript
+- Create tsconfig.json
+- Create .gitignore
+- Copy data.ts to bckend/src
+- npm install express cors
+- Create server.ts
+  - install @types
+  - Add Apis
+- npm install nodemon ts-node -save-dev
+- Add urs.ts to frontend
+- Add HttpClient module
+- Update food service
