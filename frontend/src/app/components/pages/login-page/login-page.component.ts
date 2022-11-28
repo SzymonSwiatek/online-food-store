@@ -16,13 +16,18 @@ export class LoginPageComponent implements OnInit {
       email: ['', [Validators.required, Validators.email]],
       password: ['', Validators.required],
     });
-    //loginForm.controls.email
-    //fc.email
+    //loginForm.controls.email -> ['email']
+    //fc.email -> ['password']
   }
 
   get fc() {
-    return this.loginForm.contains;
+    return this.loginForm.controls;
   }
 
-  submit() {}
+  submit() {
+    this.isSubmitted = true;
+    if (this.loginForm.invalid) return;
+    alert(`email: ${this.fc['email'].value},
+    password: ${this.fc['password'].value}`);
+  }
 }
