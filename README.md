@@ -101,3 +101,10 @@
   - Add Local Storage methods
   - Add Logout Method
     - Add to Header
+
+13. Make components for Login Page
+
+- Input Container
+- Input Validation
+- Text Input
+- Default Button
