@@ -108,3 +108,16 @@
 - Input Validation
 - Text Input
 - Default Button
+
+14. Connect Login API to MongoDB Atlas
+  - Moving Apis into routers
+  - Create MongoDB Atlas
+  - Create .env file
+  - Install
+    - mongoose
+    - dotenv
+    - bcryptjs
+    - jsonwebtoken
+    - express-async-handler
+  - Connect to MongoDB Atlas
+  - Use MongoDB instead of data.ts in apis
