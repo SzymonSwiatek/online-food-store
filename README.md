@@ -110,20 +110,31 @@
 - Default Button
 
 14. Connect Login API to MongoDB Atlas
-  - Moving Apis into routers
-  - Create MongoDB Atlas
-  - Create .env file
-  - Install
-    - mongoose
-    - dotenv
-    - bcryptjs
-    - jsonwebtoken
-    - express-async-handler
-  - Connect to MongoDB Atlas
-  - Use MongoDB instead of data.ts in apis
 
-  15. Register User
+- Moving Apis into routers
+- Create MongoDB Atlas
+- Create .env file
+- Install
+  - mongoose
+  - dotenv
+  - bcryptjs
+  - jsonwebtoken
+  - express-async-handler
+- Connect to MongoDB Atlas
+- Use MongoDB instead of data.ts in apis
+
+15. Register User
+
+
     - Add Register API
     - Add register Service Method
     - Add Register Link
     - Add Register Component
+
+16. Loading ...
+
+
+    - Add Image
+    - Add Component
+    - Add Service
+    - Add Interceptor
