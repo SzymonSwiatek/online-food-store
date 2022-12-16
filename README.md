@@ -121,3 +121,9 @@
     - express-async-handler
   - Connect to MongoDB Atlas
   - Use MongoDB instead of data.ts in apis
+
+  15. Register User
+    - Add Register API
+    - Add register Service Method
+    - Add Register Link
+    - Add Register Component
