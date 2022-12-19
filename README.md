@@ -125,7 +125,6 @@
 
 15. Register User
 
-
     - Add Register API
     - Add register Service Method
     - Add Register Link
@@ -133,8 +132,16 @@
 
 16. Loading ...
 
+- Add Image
+- Add Component
+- Add Service
+- Add Interceptor
 
-    - Add Image
-    - Add Component
-    - Add Service
-    - Add Interceptor
+17. Checkout Page
+
+- Create Order Model
+- Create Checkout Page Component
+  - Add to Router
+- Add User to User Service
+- Add Cart to Cart Service
+- Create Order Items List Component
