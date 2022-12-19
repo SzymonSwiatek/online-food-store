@@ -22,6 +22,10 @@ export class UserService {
     this.userObservable = this.userSubject.asObservable();
   }
 
+  public get currentUser(): User {
+    return this.userSubject.value;
+  }
+
   login(userLogin: IUserLogin): Observable<User> {
     return this.http.post<User>(USER_LOGIN_URL, userLogin).pipe(
       tap({
@@ -40,27 +44,23 @@ export class UserService {
     );
   }
 
-
-  register(userRegister:IUserRegister): Observable<User> {
+  register(userRegister: IUserRegister): Observable<User> {
     return this.http.post<User>(USER_REGISTER_URL, userRegister).pipe(
-      tap(
-        {
-          next: (user) => {
-            this.setUserToLocalStorage(user);
-            this.userSubject.next(user);
-            this.toastrService.success(`Welcome to the Food Store ${user.name}`,
-            'Register Successful')
-          },
-          error: (errorResponse) => {
-            this.toastrService.error(errorResponse.error, 'Register Failed')
-          }
-        }
-
-      ));
+      tap({
+        next: (user) => {
+          this.setUserToLocalStorage(user);
+          this.userSubject.next(user);
+          this.toastrService.success(
+            `Welcome to the Food Store ${user.name}`,
+            'Register Successful'
+          );
+        },
+        error: (errorResponse) => {
+          this.toastrService.error(errorResponse.error, 'Register Failed');
+        },
+      })
+    );
   }
-
-
-
 
   logout() {
     this.userSubject.next(new User());

@@ -8,7 +8,7 @@ import bcrypt from "bcryptjs";
 const router = Router();
 
 router.get(
-  "/seed",
+  "/seed", //TO DO: crypt the passwords
   asyncHandler(async (req, res) => {
     const usersCount = await UserModel.countDocuments();
     if (usersCount > 0) {

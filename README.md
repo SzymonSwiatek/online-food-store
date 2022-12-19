@@ -138,6 +138,7 @@
 - Add Interceptor
 
 17. Checkout Page
+    17.1. part
 
 - Create Order Model
 - Create Checkout Page Component
@@ -145,3 +146,26 @@
 - Add User to User Service
 - Add Cart to Cart Service
 - Create Order Items List Component
+
+  17.2. part
+
+- Adding Map to the Checkout Page
+  - Add Leaflet npm package
+    - Add @types/leaflet
+    - Add Css to angular.json
+  - Add AddressLatLng to Order Model
+  - Create Map component
+    - Add to checkout page
+    - Add TS
+      - Change app-map selector to map
+    - Add HTML
+    - Add CSS
+  - Add Auth Guard
+
+18. Payment Page
+
+- Generate Component
+- Add 'getOrderForCurrentUser' api
+- Add Order Service method
+- Connect Component to Service
+- Make the map component readonly
