@@ -150,6 +150,7 @@
   17.2. part
 
 - Adding Map to the Checkout Page
+
   - Add Leaflet npm package
     - Add @types/leaflet
     - Add Css to angular.json
@@ -161,6 +162,19 @@
     - Add HTML
     - Add CSS
   - Add Auth Guard
+
+    17.3 part
+
+- Save Order
+  - Add Order Model
+  - Add Order Status Enum
+  - Add Auth Middleware
+  - Add Order Router
+    - Add create API
+  - Add Order Urls to urls.ts
+  - Add Order Service
+    - Add create Method
+  - Add Auth Interceptor
 
 18. Payment Page
 
