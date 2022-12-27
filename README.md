@@ -183,3 +183,23 @@
 - Add Order Service method
 - Connect Component to Service
 - Make the map component readonly
+
+19. Adding Paypal
+
+- Generate Component
+  - Add to payment page
+- Get Paypal client ID
+- Add Paypal JS to index.html
+- Set up Paypal button
+- Add Pay API to order router
+- Get Paypal sandbox account
+
+20. Order Track Page
+
+- Generate Component
+  - Add to routes
+- Add API
+  - Add to urls.ts
+- Add method to order.service
+- Add HTML
+- Add CSS
